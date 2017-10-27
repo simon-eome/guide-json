@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.imc.ap.guide.json;
+package de.eome.guide.json;
 
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.util.LinkedHashMap;
@@ -389,8 +389,8 @@ public class GuideTest {
         System.out.println("removeStep");
         String stepId = "";
         Guide instance = null;
-        de.imc.ap.guide.json.Step expResult = null;
-        de.imc.ap.guide.json.Step result = instance.removeStep(stepId);
+        de.eome.guide.json.Step expResult = null;
+        de.eome.guide.json.Step result = instance.removeStep(stepId);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
